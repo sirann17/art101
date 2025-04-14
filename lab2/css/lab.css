@@ -7,3 +7,15 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+h1 {
+  color: pink;
+  font-size: 40px;
+}
+p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 20px;
+  margin-left: 10px
+}
+
+
