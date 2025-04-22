@@ -1,6 +1,6 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Siran Chen
+// Date: 4/21/2025
 
 // Constants
 
