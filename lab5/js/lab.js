@@ -1,6 +1,6 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Siran Chen
+// Date: April 22, 2025
 
 // Constants
 
@@ -19,3 +19,16 @@ function main() {
 
 // let's get this party started
 main();
+
+make = "Ford";
+model = "Taurus";
+color = "Rusty";
+year = 1995;
+
+age = 2019 - year;
+
+document.writeln("Make: "+ make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");
