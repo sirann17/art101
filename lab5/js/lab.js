@@ -19,14 +19,14 @@ function main() {
 
 // let's get this party started
 main();
-
+// define variables
 make = "Ford";
 model = "Taurus";
 color = "Rusty";
 year = 1995;
-
+//calculate
 age = 2019 - year;
-
+//output
 document.writeln("Make: "+ make + "<br>");
 document.writeln("Model: " + model + "<br>");
 document.writeln("Color: " + color + "<br>");
