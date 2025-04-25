@@ -29,3 +29,4 @@ document.writeln("Color: " + color + "<br>");
 document.writeln("Year: " + carYear + "<br>");
 document.writeln("Age: " + age + "<br>");
 }
+main();
