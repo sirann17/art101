@@ -31,7 +31,7 @@ function main() {
 //output
 document.writeln("Kinds of transportation I use: ", myTransport, "<br>");
 document.writeln("My Main Ride: <pre>",
-  JSON.stringify(myMainRide.make, null, '\t'),
+  JSON.stringify(myMainRide, null, '\t'),
    "</pre>");
 
 }
@@ -39,4 +39,19 @@ document.writeln("My Main Ride: <pre>",
 // let's get this party started
 main();
 
+//for lab 7:
 
+//function theElephant(someFood){
+
+// let userSortedText=someFood.split("").sort().join("");
+
+// return userSortedText;
+//}
+
+// let userText = window.prompt("please say something");
+
+//let finalText=theElephant(userText);
+
+//theElephant(userText);
+
+// document.writeln(userSortedText);
