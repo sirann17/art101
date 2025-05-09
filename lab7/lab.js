@@ -19,3 +19,16 @@ function sortUserName(){
 
 const nameInfo = sortUserName();
 document.writeln("Hey, here is your name: " + nameInfo.original + "</br>");
+
+
+//lab8
+// var index=1;
+// let myArray=["panda", "elephant", "lion", "walrus"];
+// function something(firstAnimal){
+// let result=firstAnimal+"with..."+myArray[index];
+// index=index+1;
+//     if(index==5){index=0}
+// return result;
+// };
+// console.log(myArray.map(something));
+// $("output").html(mapResults);
