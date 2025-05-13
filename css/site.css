@@ -34,3 +34,9 @@ h1 {
   border: solid 1px #1c1616;
   background-color: lightpink;
 }
+.special {
+    background-color: lavender;
+    border: ridge 5px rgb(232, 119, 142);
+    color: rgb(186, 59, 99);
+    font-weight: bold;
+}
