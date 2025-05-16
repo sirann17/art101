@@ -1,34 +1,39 @@
 
 <head>
-    <title>Lab 9</title>
+    <title>Lab 10</title>
     
 	
-    <link rel="stylesheet" type="text/css" href="../css/site.css">
+<link rel="stylesheet" type="text/css" href="../css/site.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/lab.js" defer></script>
+    <script src="js/lab.js" DEFER></script>
 </head>
 
 <body>
 	<main id="content">
 		<section>
-			<h1>Lab 9</h1>
+			<h1>Lab 10</h1>
+            <section>
+                <!-- <div id ="convo">our convo:</div>
+                <input type="text">
+                <button id="action">say smth</button> -->
+            </section>
 			<div class="minor-section">
                 <div id="challenge"></div>
 					<h2>Challenge</h2>
-					<p>The challenge of the lab is understanding jQuery and libraries.</p>
+					<p>The challenge of the lab is to create the button and every time you press the button, it displays a different text.</p>
 			</div>
 
 			<div class="minor-section">
                 <div id="problem"></div>
 					<h2>Problems</h2>
-					<p>I had trouble in displaying the button on my page and then I realized my id had capitalization but I did not capitalize in my javascript code. One major problem we encountered was making the button in the style of my .special from css. We resolved it by putting the .special in site.css instead of lab.css. I am guessing there is a problem in linking my lab.css file or there is an overlap that caused this error. </p>
+					<p>I had trouble with making my button display a different text every time I press it. The text only changes when I refresh the entire page. To resolve this, I checked my javascript code and realized I did not put the code inside of the function itself so I moved it under function and the button worked! </p>
 			</div>
 
 			<div class="minor-section">
                 <div id="reflection"></div>
 					<h2>Reflection</h2>
-					<p>I think I have gotten a good introduction to jQuery and library but I think I would still need more time in remembering the purpose of " $("#") ".</p>
+					<p>I think the topic we are currently learning are getting more difficult and it reallyy challenges our coding brain.</p>
 			</div>
 
 			<div class="minor-section">
@@ -39,7 +44,9 @@
             
             
             <div class="output"></div>
+			<div id="output"></div>
                 <h2>Script Output</h2>
+				<button id="make-convo">Say Something</button>
                 <script src="lab.js"></script>
         	</div>
 		</section>
