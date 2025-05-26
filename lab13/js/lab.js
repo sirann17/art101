@@ -30,20 +30,12 @@ for (i = 1; i <= 200; i++) {
   } else {
         console.log(i);
         oneLongString += i + "!<br>";
- 
 
   }
 
-      
-      
-      
-      
 }
 $("#output").html(oneLongString);
-
     }
-
-
 $(document).ready(function(){
     fizzBuzzBoom();
 });
